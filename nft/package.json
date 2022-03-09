@@ -1,0 +1,31 @@
+{
+  "name": "@salo-smart-contract/nft",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "truffle compile",
+    "console:dev": "truffle console --network dev",
+    "deploy:dev": "truffle migrate --reset --network dev",
+    "deploy:testnet": "truffle migrate --network testnet",
+    "deploy:mainnet": "truffle migrate --network mainnet",
+    "test": "truffle test test/1.creator.js --network dev",
+    "verify:mainnet": "truffle run verify Character Fragment Item Weapon Creator --network mainnet",
+    "verify:testnet": "truffle run verify Character Fragment Item Weapon Creator --network testnet",
+    "show": "truffle exec init/deployed-address.js",
+    "exec-js": "truffle exec"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "openzeppelin-solidity": "^4.2.0",
+    "truffle": "^5.3.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.1.0",
+    "bn-chai": "^1.0.1",
+    "chai-bignumber": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "truffle-plugin-verify": "^0.5.18"
+  }
+}
