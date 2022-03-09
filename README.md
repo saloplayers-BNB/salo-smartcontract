@@ -22,7 +22,7 @@ git push -uf origin main
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/0x-ventures/salo-smartcontract/-/settings/integrations)
+- [ ] [Set up project integrations](https://github.com/saloplayers-BNB/smart-contract/-/settings/integrations)
 
 ## Collaborate with your team
 
